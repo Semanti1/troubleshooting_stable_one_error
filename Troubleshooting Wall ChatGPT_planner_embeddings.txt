@@ -1,0 +1,1 @@
+lampbody,lightbulb|lampbody,lampbody|cord,lightbulb|cord,cord|backplate,backplate|backplate,lampbody|lightbulb,lightbulb

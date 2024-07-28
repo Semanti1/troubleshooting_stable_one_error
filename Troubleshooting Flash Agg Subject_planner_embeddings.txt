@@ -1,0 +1,1 @@
+batteries,batteries|lightbulb,lightbulb|lightbulb,switchandcircuit|batteries,switchandcircuit|switchandcircuit,switchandcircuit

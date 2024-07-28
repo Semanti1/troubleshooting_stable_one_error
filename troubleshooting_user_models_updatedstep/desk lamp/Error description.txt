@@ -1,0 +1,3 @@
+("cord", "lightbulb")
+
+Maximum achievable award: 20

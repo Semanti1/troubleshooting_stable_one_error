@@ -1,0 +1,3 @@
+("lightbulb","lightbulb")
+
+Maximum reward achievable = 9

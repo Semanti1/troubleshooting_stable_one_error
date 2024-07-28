@@ -1,0 +1,1 @@
+outlet,pullchain|lightbulb,lightbulb|lightbulb,pullchain|outlet,outlet|pullchain,pullchain|cord,cord|cord,pullchain|cord,outlet
