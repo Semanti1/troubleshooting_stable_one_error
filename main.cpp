@@ -198,9 +198,13 @@ int main(int argc, char* argv[])
                 maxerrors = 3;
         if (furniture == "flash")
             maxerrors = 6;
-        if (furniture == "kero")
+        if (furniture == "kerosene")
             maxerrors = 8;
         if (furniture == "desk")
+            maxerrors = 7;
+        if (furniture == "bicycle")
+            maxerrors = 15;
+        if (furniture == "sink")
             maxerrors = 7;
         //std::vector<std::vector<std::pair<std::string, std::string>>> allusers2 = allusers;
         for (int i = 0; i < allusers.size(); i++)

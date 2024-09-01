@@ -71,11 +71,11 @@ void EXPERIMENT::Run()
         std::chrono::duration<double> time_span = std::chrono::duration_cast<std::chrono::duration<double>>(t2b - t2);
         //cout << "Time in this step: " << time_span.count() << endl;
        
-        cout << "action " << endl;
-        Real.DisplayAction(action, cout);
+        //cout << "action " << endl;
+        //Real.DisplayAction(action, cout);
         
         terminal = Real.Step(*state, action, observation, reward);
-        cout << "real observation:  " << observation << endl;
+        //cout << "real observation:  " << observation << endl;
         //Real.DisplayState(*state, cout);
         //cout << "state " << endl;
         //Real.DisplayState(*state, cout);
