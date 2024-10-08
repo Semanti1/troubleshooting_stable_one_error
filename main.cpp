@@ -206,6 +206,8 @@ int main(int argc, char* argv[])
             maxerrors = 15;
         if (furniture == "sink")
             maxerrors = 7;
+        if (furniture == "toilet")
+            maxerrors = 12;
         //std::vector<std::vector<std::pair<std::string, std::string>>> allusers2 = allusers;
         for (int i = 0; i < allusers.size(); i++)
         {

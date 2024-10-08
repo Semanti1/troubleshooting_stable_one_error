@@ -476,6 +476,62 @@ bool CAUSAL_FURNITURE::isValid(std::pair<std::string, std::string> connection) c
             assert(false);
         }
     }
+
+    if (furniture_name == "toilet")
+    {
+        if (er_num == 1)
+        {
+            validconnections = { std::make_pair("tank","handle") };
+        }
+        else if (er_num == 2)
+        {
+            validconnections = { std::make_pair("supply","tank") };
+        }
+        else if (er_num == 3)
+        {
+            validconnections = { std::make_pair("tank","flapper"), };
+        }
+        else if (er_num == 4)
+        {
+            validconnections = { std::make_pair("handle","chain") };
+        }
+        else if (er_num == 5)
+        {
+            validconnections = { std::make_pair("flapper","chain") };
+        }
+        else if (er_num == 6)
+        {
+            validconnections = { std::make_pair("tank","tank") };
+        }
+        else if (er_num == 7)
+        {
+            validconnections = { std::make_pair("handle","handle") };
+        }
+        else if (er_num == 8)
+        {
+            validconnections = { std::make_pair("supply","supply") };
+        }
+        else if (er_num == 9)
+        {
+            validconnections = { std::make_pair("chain","chain") };
+        }
+        else if (er_num == 10)
+        {
+            validconnections = { std::make_pair("flapper","flapper") };
+        }
+        else if (er_num == 11)
+        {
+            validconnections = { std::make_pair("float","supply") };
+        }
+        else if (er_num == 12)
+        {
+            validconnections = { std::make_pair("float","float") };
+        }
+        else
+        {
+            assert(false);
+        }
+    }
    // cout << "Error in : " << validconnections[0].first << "-" << validconnections[0].second << endl;
    // std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("cord", "lightbulb") };
    // std::vector<std::pair<std::string, std::string>> validconnections{ std::make_pair("kerosenetank", "kerosenetank") };
